@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Servicios</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script defer src="./header/header.js"></script>
+    <link rel="stylesheet" href="./header/header.css" />
+
+    <script defer src="./footer/footer.js"></script>
+    <link rel="stylesheet" href="./footer/footer.css" />
+
+    <script defer src="./servicios.js"></script>
+    <link rel="stylesheet" href="./servicios.css" />
+  </head>
+  <body>
+    <div class="welcome">
+      <div class="welcome__header-cont"></div>
+      <h2 class="welcome__title">Servicios</h2>
+    </div>
+
+    <section class="servicios">
+      <template id="servicios-template">
+        <div class="servicios-card">
+          <img src="./img/Compu.svg" alt="" class="servicios-card__imagen" />
+          <h3 class="servicios-card__title"></h3>
+          <p class="servicios-card__descripcion"></p>
+        </div>
+      </template>
+    </section>
+
+    <div class="footer-cont"></div>
+  </body>
+</html>

@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+
+.welcome {
+  background-image: url("./img/header-portfolio-desktop.png");
+  height: 654px;
+  padding: 0 86px;
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio {
+  display: grid;
+  justify-content: center;
+  padding: 20px 40px;
+  margin-bottom: 146px;
+}
+
+@media (min-width: 960px) {
+  .portfolio {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    padding: 20px 90px;
+    margin-bottom: 146px;
+  }
+}
+
+@media (min-width: 960px) {
+  .portfolio__titulo-cont {
+    grid-column: 3;
+  }
+}
+.welcome__title {
+  margin-top: 59px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: start;
+  margin-top: 200px;
+}
+
+.portfolio-card {
+  max-width: 600px;
+  margin-top: 106px;
+  text-align: center;
+}
+
+.portfolio-card__imagen {
+  object-fit: cover;
+  height: 128px;
+  width: 290px;
+}
+
+.portfolio-card-link {
+  color: #51aff3;
+  text-align: right;
+  display: block;
+  margin-top: 20px;
+}

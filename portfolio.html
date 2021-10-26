@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script defer src="./header/header.js"></script>
+    <link rel="stylesheet" href="./header/header.css" />
+
+    <script defer src="./footer/footer.js"></script>
+    <link rel="stylesheet" href="./footer/footer.css" />
+
+    <script defer src="./portfolio.js"></script>
+    <link rel="stylesheet" href="./portfolio.css" />
+  </head>
+  <body>
+    <div class="welcome">
+      <div class="welcome__header-cont"></div>
+      <h2 class="welcome__title">Portfolio</h2>
+    </div>
+
+    <section class="portfolio">
+      <template id="portfolio-template">
+        <div class="portfolio-card">
+          <img src="./img/Compu.svg" alt="" class="portfolio-card__imagen" />
+          <h3 class="portfolio-card__title"></h3>
+          <p class="portfolio-card__descripcion"></p>
+          <a href="" class="portfolio-card-link">ver más..</a>
+        </div>
+      </template>
+    </section>
+
+    <div class="footer-cont"></div>
+  </body>
+</html>

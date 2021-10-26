@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #141414;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-image: url("./img/header-contacto-desktop.png");
+  }
+}
+
+@media (min-width: 768px) {
+  .contacto {
+    background-image: url("./img/header-contacto-desktop.png");
+  }
+}
