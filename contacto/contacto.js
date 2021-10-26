@@ -31,7 +31,6 @@ function contacto(el) {
     e.preventDefault();
     const formData = new FormData(e.target);
     const mensaje = Object.fromEntries(formData.entries());
-    console.log(mensaje);
 
     fetch("https://apx-api.vercel.app/api/utils/dwf", {
       method: "POST",

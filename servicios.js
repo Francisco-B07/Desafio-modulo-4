@@ -26,7 +26,6 @@ function getWorks() {
       return res.json();
     })
     .then((data) => {
-      console.log(data);
       const imagenes = data.includes.Asset.map((item) => {
         return item.fields.file.url;
       });

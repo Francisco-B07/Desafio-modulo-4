@@ -31,7 +31,6 @@ function getWorks() {
       const imagenes = data.includes.Asset.map((item) => {
         return item.fields.file.url;
       });
-      console.log(imagenes);
       fieldsCollections = data.items.map((item) => {
         return {
           title: item.fields.titulo,
