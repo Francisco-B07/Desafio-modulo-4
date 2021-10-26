@@ -7,15 +7,15 @@ function footer(el) {
         <div class="footer__redes-cont">
           <div class="footer__redes">
             <span class="footer__redes-texto">Instagram</span>
-            <img src="./img/Instagram.svg" class="footer__redes-logo" />
+            <img src="./img/instagram.png" class="footer__redes-logo" />
           </div>
           <div class="footer__redes">
             <span class="footer__redes-texto">Linkedin</span>
-            <img src="./img/Linkedin.svg" class="footer__redes-logo" />
+            <img src="./img/linkedin.png" class="footer__redes-logo" />
           </div>
           <div class="footer__redes">
             <span class="footer__redes-texto">Github</span>
-            <img src="./img/Github.svg" class="footer__redes-logo" />
+            <img src="./img/github.png" class="footer__redes-logo" />
           </div>
         </div>
       </footer> `;
