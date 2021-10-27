@@ -38,9 +38,11 @@ function contacto(el) {
       body: JSON.stringify({
         to: "franciscojburgoa@gmail.com",
         message: `
-        Recibiste un mensaje de: ${mensaje.nombre}. 
-        Email: ${mensaje.email}.
-
+        Recibiste un mensaje de: ${mensaje.nombre} 
+        <br>
+        Email: ${mensaje.email} 
+        <br>
+        <br>
         Mensaje: ${mensaje.mensaje}
         `,
       }),
