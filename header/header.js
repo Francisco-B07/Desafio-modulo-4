@@ -3,7 +3,10 @@ function header(el) {
 
   componentEl.innerHTML = `    
   <header class="header">
-        <img class="header__imagen" src="./img/logo-letras-blancas.png" alt="logo" />
+        <a href="./index.html">
+          <img class="header__imagen" src="./img/logo-letras-blancas.png" alt="logo" />
+        </a>
+        
           <div class="header__button-hamburger--abre-ventana">
             <div class="button-hamburger__capa"></div>
             <div class="button-hamburger__capa"></div>
@@ -42,6 +45,7 @@ function header(el) {
   const botonCerrarVentanaEl = componentEl.querySelector(
     ".ventana__cierra-ventana"
   );
+
   const ventanaEl = componentEl.querySelector(".header__ventana");
 
   botonHamburguesaEl.addEventListener("click", function () {

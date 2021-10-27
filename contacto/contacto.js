@@ -37,12 +37,18 @@ function contacto(el) {
       headers: { "content-type": "application/json" },
       body: JSON.stringify({
         to: "franciscojburgoa@gmail.com",
-        message: mensaje.mensaje,
-      }),
-    })
-      .then((res) => res.json())
-      .then((data) => console.log(data));
-  });
+        message: `
+        Recibiste un mensaje de: ${mensaje.nombre}. 
+        Email: ${mensaje.email}.
 
+        Mensaje: ${mensaje.mensaje}
+        `,
+      }),
+    });
+    form.reset();
+    setTimeout(function () {
+      alert("MENSAJE ENVIADO!!");
+    }, 250);
+  });
   el.appendChild(componentEl);
 }

@@ -7,13 +7,12 @@ body {
 }
 .welcome {
   width: 100%;
-  height: 100vh;
+  height: 616px;
   background-image: url("img/header-home-mobile.png");
 }
 
-@media (min-width: 768px) {
+@media (min-width: 668px) {
   .welcome {
-    height: 616px;
     background-image: url("img/header-home-desktop.png");
   }
 }
